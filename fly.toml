@@ -1,13 +1,15 @@
-# fly.toml file generated for blogs13 on 2023-05-09T12:10:29+03:00
+# fly.toml app configuration file generated for blog13 on 2023-05-09T12:55:42+03:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
 
-app = "blogs13"
+app = "blog13"
 kill_signal = "SIGINT"
 kill_timeout = 5
 primary_region = "arn"
 processes = []
 
 [build]
-  builder = "heroku/buildpacks:20"
 
 [env]
   PORT = "8080"
